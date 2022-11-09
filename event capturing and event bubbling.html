@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 50px 50px;
+            height: 100%;
+            width: 100%;
+        }
+        div{
+            height: 500ps;
+            width: 500px;
+            border: 2px solid red;
+            padding: 50px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div">
+        <button id="btn">click</button>
+    </div>
+    <script>
+        // //addEventListener(event,function,true/false)
+        // //by default false -> event bubbling
+        // //           true  -> event capturing 
+        // let x=document.body;
+        // let y=document.getElementById('div');
+        // let z=document.getElementById('btn');
+        // x.addEventListener('click',function(){
+        //     console.log('body clicked')
+        // },true);
+        // y.addEventListener('click',function(){
+        //     console.log('div clicked')
+        // },true);
+        // z.addEventListener('click',function(){
+        //     console.log('button clicked')
+        // },true);
+    </script>
+</body>
+</html>
